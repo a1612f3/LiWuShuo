@@ -25,6 +25,7 @@ public class SplashActivity extends AppCompatActivity implements Handler.Callbac
         if (msg.what==100) {
             Intent intent = new Intent(SplashActivity.this, MainActivity.class);
             startActivity(intent);
+            finish();
         }
         return false;
     }

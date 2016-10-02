@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="80dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageview_strategy_header"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/title_strategy_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/imageview_strategy_header"
+            android:text="数码家"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/content_strategy_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imageview_strategy_header"
+            android:layout_below="@id/title_strategy_header"
+            android:layout_marginTop="20dp"
+            android:text="爱因烧钱"
+            android:textSize="10sp"
+
+            />
+    </RelativeLayout>
+
+</LinearLayout>
